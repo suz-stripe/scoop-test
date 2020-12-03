@@ -1,0 +1,10 @@
+name: demo pre/post-install
+on: workflow_dispatch
+jobs:
+  dep:
+    runs-on: windows-2019
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: .\test.ps1
+      shell: powershell
