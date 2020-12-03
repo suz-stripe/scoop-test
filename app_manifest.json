@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "url": "https://gist.github.com/lukesampson/6446238/raw/hello.ps1",
+  "bin": "hello.ps1",
+  "pre_install": ["Write-Host 'Running preinstall command'"],
+  "post_install": ["Write-Host 'Running postinstall command'"]
+ }
